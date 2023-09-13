@@ -2,9 +2,8 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import Spot from "@/public/spot.png";
+import CRUD from "@/public/CRUD.png";
 
 export const links = [
   {
@@ -35,53 +34,48 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Bachelor in Computer Engineering, Pillai College of Engineering",
+    location: "Mumbai, India",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "Acquired practical skills through project-based learning methodology. Evaluated and examined Data Structures and Algorithms (Implemented an Algorithm to find the shortest path between points in a graph). Deployed a web-based application for finding the location of books in the college library. Devised hearing assistant for the visually impaired (Text to speech, OCR using machine learning algorithms.) and achieved an accuracy of 60%. Created a parental control Android app using JAVA and android studio. Strengthened team building and collaborative abilities.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2015 - 2019",
   },
   {
     title: "Front-End Developer",
-    location: "Orlando, FL",
+    location: "Ugam Solutions, Mumbai, India",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "performance and cross-browser compatibility,Collaborated with the design team to implement visually appealing user interfaces based on provided wireframes and mock-ups., Integrated RESTful APIs to fetch and display data from backend systems. Implemented unit tests using Jest to ensure code quality and reliability. Worked closely with the backend team to define API contracts and troubleshoot integration issues. Participated in code reviews to maintain code quality and provide feedback to team members. Contributed to the optimization of application performance through code refactoring and performance tuning.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2019 - 2022",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Computer Software and Database Development, Lambton College",
+    location: "Toronto, CA",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
-  },
+      "Planning, programming, and hosting websites. Developing and designing a database management system for an e-commerce site. Analyzing Full Stack fundamentals. Inculcating effective communication and project management expertise.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2022-2024",
+  } ,
 ] as const;
 
 export const projectsData = [
+  
   {
-    title: "CorpComment",
+    title: "Spotify App Clone",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "Using Next.js, React.js, Supabase, SQL, and Tailwind CSS, I've built a fully functional Spotify clone that allows you to listen to your favourite music seamlessly.",
+    tags: ["React", "Next.js", "Supabase", "Tailwind", "SQL"],
+    imageUrl: Spot,
   },
   {
-    title: "rmtDev",
+    title: "Employee CRUD App",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "Employee CRUD App With Image Upload Using NodeJs, ExpressJs, MongoDB & EJS Templating Engine.",
+    tags: ["ExpressJs", "ES6", "MongoDB", "Bootstrap", "Html:5"],
+    imageUrl: CRUD,
   },
-  {
-    title: "Word Analytics",
-    description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
-  },
+
 ] as const;
 
 export const skillsData = [
@@ -89,6 +83,7 @@ export const skillsData = [
   "CSS",
   "JavaScript",
   "TypeScript",
+  "JQuery",
   "React",
   "Next.js",
   "Node.js",
@@ -104,4 +99,8 @@ export const skillsData = [
   "Python",
   "Django",
   "Framer Motion",
+  "Data Structures",
+  "Python",
+  ".Net Core",
+  "Android App Development"
 ] as const;

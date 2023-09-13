@@ -33,30 +33,20 @@ export default function About() {
         About me
       </SectionHeading>
       <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
-        <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
-        </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
+      I hold a Meta <span className="font-medium">Front-end Developer Certification</span> and possess a wealth of knowledge and expertise in various aspects of web development. 
+      Proficient in <span className="font-medium">HTML5, CSS3, and JavaScript</span>, I have a strong grasp of responsive web design principles and am adept at creating interfaces that seamlessly adapt to different devices and screen sizes.
+       My experience extends to working with front-end frameworks such as <span className="font-medium">React, Angular, and Vue.js</span>, allowing me to craft dynamic and user-friendly web applications.
       </p>
 
-      <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I'm also
-        learning how to play the guitar.
+      <p className="mb-3">
+      My proficiency in version control systems like <span className="font-medium">Git and GitHub</span> ensures streamlined collaboration and efficient code management. I bring a deep understanding of browser compatibility issues and troubleshooting techniques, enabling me to deliver consistently high-quality user experiences. With a background in UI/UX design principles,
+       I am focused on functionality and creating visually appealing and intuitive interfaces.
+      </p>
+      
+       <p className="mb-3">
+      My <span className="font-medium">problem-solving and analytical skills</span> are strong, and I am known for my excellent communication and collaboration abilities,
+      which make me a valuable asset to any development team. Moreover, I hold certifications in <span className="font-medium">interface-building and React.js</span> Essential training, demonstrating my commitment to staying current with industry best practices. Additionally, I've acquired <span className="font-medium">IBM Developer skill network certifications</span> in Data Science Methodology and Python for Data Science, 
+      highlighting my versatility and expertise across multiple technology domains.
       </p>
     </motion.section>
   );

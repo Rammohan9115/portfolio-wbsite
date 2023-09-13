@@ -35,17 +35,17 @@ export default function Intro() {
 
             }}
             >
-                    <Image src="/pp.png" 
+                    <Image src="/DP.png" 
                     alt="portrait"
                     width="190"
                     height="190"
                     quality="95"
                     priority={true}
-                    className="h-24 w-24 rounded-full border-[0.35rem] border-whit
-                    object-cover shadow-xl"
+                    className="h-24 w-24 hover:scale-150 rounded-full border-[0.35rem] border-whit
+                    object-cover shadow-xl transition"
                     />
 
-                    <motion.span className="absolute bottom-0 right-0 text-4xl
+                    <motion.span className="absolute hover:scale-150 bottom-0 right-0 text-4xl
                     " initial={{opacity:0,scale:0}}
                     animate={{opacity:1,scale:1}}
                     transition = {{
@@ -68,11 +68,12 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I'm Rammohan.</span> I'm a{" "}
-        <span className="font-bold">full-stack developer</span> with{" "}
-        <span className="font-bold">3 years</span> of experience. I enjoy
-        building <span className="italic">sites & apps</span>. My focus is{" "}
-        <span className="underline">React (Next.js)</span>.
+        <span className="font-bold">Hello, I'm Rammohan.</span> With a proven track record of 3 years in{" "}
+        <span className="font-bold"> front-end development.</span> {" "} 
+       <span className='text-xl'> <span className="font-bold"> </span>My passion for crafting exceptional user interfaces and dedication to delivering high-quality web applications
+         have allowed me to thrive in this 
+         <span className="italic"></span> dynamic industry. My focus is{" "}
+        <span className="font-bold">React (Next.js)</span>.</span>
         </motion.p>
 
         <motion.div className='flex flex-col sm:flex-row items-center justify-center gap-2
@@ -97,7 +98,7 @@ export default function Intro() {
             <a className="group bg-white px-7 py-3 flex items-center
               gap-2 rounded-full text-gray-900 outline-none 
               focus-scale-110 hover:scale-110
-               active:scale-105 transition cursor-pointer border border-black/10 " href="/CV.pdf" download> Download CV 
+               active:scale-105 transition cursor-pointer border border-black/10 " href="/CV.pdf" download> Download Resume 
                 <HiDownload className="opacity-60 group-hover:translate-y-1 transition hover:text-gray-950" />
             </a>
             <a className="bg-white p-4 py-3 flex items-center
