@@ -4,7 +4,7 @@ import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import Spot from "@/public/spot.png";
 import CRUD from "@/public/CRUD.png";
-
+import joke from "@/public/joke.png";
 export const links = [
   {
     name: "Home",
@@ -74,6 +74,13 @@ export const projectsData = [
       "Employee CRUD App With Image Upload Using NodeJs, ExpressJs, MongoDB & EJS Templating Engine.",
     tags: ["ExpressJs", "ES6", "MongoDB", "Bootstrap", "Html:5"],
     imageUrl: CRUD,
+  },
+  {
+    title: "Joke Generator",
+    description:
+      "Joke Creator allows you to generate jokes based on your preferences. Whether you're into programming jokes, dark humor, puns, or more, this app has you covered!",
+    tags: ["React", "Next.js", "Tailwind","Framer motion"],
+    imageUrl: joke,
   },
 
 ] as const;
