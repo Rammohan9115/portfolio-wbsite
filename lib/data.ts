@@ -5,6 +5,8 @@ import { LuGraduationCap } from "react-icons/lu";
 import Spot from "@/public/spot.png";
 import CRUD from "@/public/CRUD.png";
 import joke from "@/public/joke.png";
+import word from "@/public/word.png";
+import hang from "@/public/hang.png";
 export const links = [
   {
     name: "Home",
@@ -81,6 +83,22 @@ export const projectsData = [
       "Joke Creator allows you to generate jokes based on your preferences. Whether you're into programming jokes, dark humor, puns, or more, this app has you covered!",
     tags: ["React", "Next.js", "Tailwind","Framer motion"],
     imageUrl: joke,
+  },
+
+  {
+    title: "Wordle Game",
+    description:
+      "Wordle game using React.js and TypeScript, enhancing the classic word puzzle game with modern web technologies.",
+    tags: ["React", "TypeScript", "CSS"],
+    imageUrl: word,
+  },
+
+  {
+    title: "Hangman Game",
+    description:
+      "Developed an engaging Hangman game enjoy guessing words and improve you vocablury, providing an enjoyable gaming experience.",
+    tags: ["React", "TypeScript", "Bootstrap"],
+    imageUrl: hang,
   },
 
 ] as const;
